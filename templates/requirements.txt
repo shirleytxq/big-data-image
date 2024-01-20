@@ -1,5 +1,6 @@
 flask
 replicate
+gunicorn
 json
 time
 requests
