@@ -1,0 +1,6 @@
+flask
+replicate
+json
+time
+requests
+PIL
