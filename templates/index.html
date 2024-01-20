@@ -1,16 +1,10 @@
 <html>
-    <h1>paLM (bison) chatbot by google</h1>
+    <h1>Midjourney Image Generator imageGPT</h1>
     <form action="/" method="post">
-        <p>question : </p>
+        <p>image title: </p>
         <p><input type ="text" name="q"></p>
         <p><input type="submit" value="Enter"></p>
     </form>
-    <p>reply:</p>
-    {% if result %}
-        <!-- Displaying the image using the img tag -->
-        <img src="{{ result }}" alt="Generated Image" style="max-width: 100%; height: auto;">
-    {% else %}
-        <!-- Display this text if no image URL is available -->
-        <p>Waiting for image request...</p>
-    {% endif %}
+    <p>reply: {{result}}</p>
+    <p><img src={{result}}></p>
 </html>
